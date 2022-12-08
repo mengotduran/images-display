@@ -1,0 +1,252 @@
+* {
+    text-decoration:none;
+    list-style:none;
+    margin:0px;
+    padding:0px;
+}
+
+body {
+    background-color:bisque;
+}
+
+/*Header*/
+
+header {
+    height:100px;
+    width:100%;
+    background-color:lightyellow;
+}
+
+header .header-brand {
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#111;
+    font-size:20px;
+    font-weight:900;
+    text-transform:uppercase;
+    display:block;
+    text-align:center;
+    margin:0 auto;
+    padding-top:15px;
+
+}
+
+header nav ul {
+    margin:0 auto;
+    width:fit-content;
+}
+
+header nav ul li {
+    display:inline-block;
+    float:left;
+    padding-top:15px;
+}
+
+header nav ul li a{
+    color:#111;
+    padding:0px 10px;
+}
+
+.header-casses {
+    display:none;
+}
+
+@media only screen and (min-width:1000px){
+    header .header-brand {
+        text-align:left;
+        margin:20px 0;
+        border-right:3px solid #111;
+        float:left;
+        padding:0px 40px 0 20px;
+        line-height:40px;
+    }
+
+    header nav ul {
+        float:left;
+        line-height:25px;
+        margin:15px 0;
+        padding-left:25px;
+        font-size:20px;
+    }
+
+    header nav ul li a{
+        padding-right:30px;
+    }
+
+    .header-casses {
+        display:block;
+        float:right;
+        border:1px solid #111;
+        color:#111;
+        padding:10px 15px;
+        line-height:15px;
+        margin:30px 40px 0 0;
+    }
+}
+
+/*Main*/
+
+main {
+    background-image:url('images/child.JPG');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:calc(100vh - 100px);
+    width:100%;
+}
+
+main h2 {
+    font-family:Catamaran;
+    color:#f3f3f3;
+    text-shadow:2px 2px 8px #111;
+    width:400px;
+    text-align:center;
+    margin:auto;
+    font-size:60px;
+}
+
+main h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:#f2f2f2;
+    font-size:24px;
+    font-style:italic;
+    font-weight:100;
+    text-align:center;
+    line-height:34px;
+    text-shadow:2px 2px 8px #111;
+}
+
+/*SECTION*/
+
+section div h3 {
+    height:100px;
+    background-color:lightyellow;
+    margin:20px;
+    text-transform:uppercase;
+    font-size:26px;
+    font-weight:600;
+    line-height:100px;
+    text-align:center;
+}
+
+section div h3 a {
+    color:#111;
+}
+
+@media only screen and (min-width:1000px) {
+    main {
+        display:table;
+    }
+
+    main div {
+        display:table-cell;
+        vertical-align: middle;
+    }
+
+    main h2 {
+        width:800px;
+    }
+
+    main h1 {
+       width:630px;
+       margin:auto;
+    }
+
+    .wrapper {
+        width:1000px;
+        margin:0 auto;
+    }
+
+    section {
+        margin-left:65px;
+    }
+
+    section div {
+        float:left;
+        overflow:hidden;
+    }
+
+    .square h3{
+        height:200px;
+        width:200px;
+        line-height:200px;
+        margin:10px 10px 10px 10px;
+    }
+
+    .rectangle h3{
+        height:200px;
+        width:400px;
+        line-height:200px;
+        margin:10px 10px 10px 10px;
+    }
+}
+
+/*Footer*/
+
+footer {
+    background-color:#111;
+    padding: 40px 40px;
+    width:calc(100% - 80px);
+    overflow:hidden;
+}
+
+footer ul {
+    width:fit-content;
+    float:left;
+}
+
+footer ul li a {
+    font-family: Catamaran;
+    font-size:24px;
+    color:#fff;
+    line-height:40px;
+}
+
+.two {
+    display:none;
+}
+
+.four {
+    width:60px;
+    float:right;
+    line-height:26px;
+}
+
+.four img {
+    width:100%;
+    padding-right:10px;
+}
+
+@media only screen and (min-width:1000px) {
+    .two {
+        display:block;
+        padding:10px;
+        
+    }
+
+    .two li {
+        margin-left:30px;
+    }
+
+    .two li a {
+        font-size:20px;
+    }
+
+    .three {
+        color:#f3f3f3;
+        font-size:20px;
+        font-family:Catamaran;
+        text-transform:uppercase;
+        font-weight:900;
+        padding-bottom:5px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
